@@ -64,7 +64,7 @@ const CCPA: React.FC = () => {
             </ul>
 
             <Link className="border-b-2" to={'/legal/privacy_policy'}></Link>
-            <Link className="font-bold border-b-2" to='javascript:void(0)' onClick={() => window.location.href = 'mailto:help@boo.world'}>help@boo.world</Link> 
+            <Link className="font-bold border-b-2" to='javascript:void(0)' onClick={() => window.location.href = 'mailto:help@blinddate.world'}>help@blinddate.world</Link> 
         */}
     </div>
   )

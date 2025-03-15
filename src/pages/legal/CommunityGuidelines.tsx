@@ -55,9 +55,9 @@ const CommunityGuidelines: React.FC = () => {
             <p className="mb-2">It is strictly prohibited to utilize any apps created by anyone other than Blind Date that claim to provide our service or unlock special Blind Date features (like auto-swipers).</p>
             <h6 className="mb-2 text-lg font-bold">REPORT ALL BAD BEHAVIOR</h6>
             <p className="mb-2 font-bold">On Blind Date:</p>
-            <p className="mb-2">Please email us at <Link className="font-bold border-b-2" to='javascript:void(0)' onClick={() => window.location.href = 'mailto:help@boo.world'}>reports@boo.world</Link> . This email address can be found in the app on the Account page</p>
+            <p className="mb-2">Please email us at <Link className="font-bold border-b-2" to='javascript:void(0)' onClick={() => window.location.href = 'mailto:help@blinddate.world'}>reports@blinddate.world</Link> . This email address can be found in the app on the Account page</p>
             <p className="mb-2 font-bold">Off Blind Date:</p>
-            <p className="mb-2">If necessary, contact local law enforcement, then please email us at <Link className="font-bold border-b-2" to='javascript:void(0)' onClick={() => window.location.href = 'mailto:help@boo.world'}>help@boo.world</Link> .</p>
+            <p className="mb-2">If necessary, contact local law enforcement, then please email us at <Link className="font-bold border-b-2" to='javascript:void(0)' onClick={() => window.location.href = 'mailto:help@blinddate.world'}>help@blinddate.world</Link> .</p>
             <p className="mb-2 font-bold"><Link className="border-b-2" to={'/legal/safety_tips'}>CLICK HERE FOR DATING SAFETY TIPS</Link></p>
             <p className="mb-2">If you misuse the Service or act in a way that Blind Date believes to be unethical, illegal, or against the Terms of Use, including actions or communications that take place outside of the Service but involve users you meet through it, Blind Date has the right to investigate and/or terminate your account without a refund of any purchases.</p>
             
@@ -79,7 +79,7 @@ const CommunityGuidelines: React.FC = () => {
             </ul>
 
             <Link className="border-b-2" to={'/legal/privacy_policy'}></Link>
-            <Link className="font-bold border-b-2" to='javascript:void(0)' onClick={() => window.location.href = 'mailto:help@boo.world'}>help@boo.world</Link> 
+            <Link className="font-bold border-b-2" to='javascript:void(0)' onClick={() => window.location.href = 'mailto:help@blinddate.world'}>help@blinddate.world</Link> 
         */}
     </div>
   )

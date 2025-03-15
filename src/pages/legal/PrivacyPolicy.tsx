@@ -127,15 +127,15 @@ const TermsAndConditions: React.FC = () => {
             <h6 className="my-3 text-lg font-bold">YOUR RIGHTS</h6>
             <p className="mb-2">Blind Date wants you to be in control of your personal information, so we have provided you with the following tools:</p>
             <ul className="mb-2">
-                <li className="list-disc ml-10 pl-5"><span className="font-bold">Access / Update tools in the service.</span> Tools and account settings that enable you to view, correct, or remove information supplied to us and linked with your account directly inside the service. If you have any queries about those tools or settings, please get in touch with our customer service staff at <Link className="font-bold border-b-2" to='javascript:void(0)' onClick={() => window.location.href = 'mailto:help@boo.world'}>help@boo.world</Link> for assistance.</li>
+                <li className="list-disc ml-10 pl-5"><span className="font-bold">Access / Update tools in the service.</span> Tools and account settings that enable you to view, correct, or remove information supplied to us and linked with your account directly inside the service. If you have any queries about those tools or settings, please get in touch with our customer service staff at <Link className="font-bold border-b-2" to='javascript:void(0)' onClick={() => window.location.href = 'mailto:help@blinddate.world'}>help@blinddate.world</Link> for assistance.</li>
                 <li className="list-disc ml-10 pl-5"><span className="font-bold">Device permissions.</span> Your mobile device has permission settings that enable for location sharing and alerts, like phone book and location services, as well as push notifications. You can alter your device's settings to agree or disagree with collecting the associated information or displaying the corresponding alerts. </li>
                 <li className="list-disc ml-10 pl-5"><span className="font-bold">Deletion.</span> You can remove your account by utilizing the service's associated capability for account deletion.</li>
             </ul>
             <p className="mb-2">We want you to have an awareness of your privacy rights so here are a few key points to remember:</p>
 
             <ul className="mb-2">
-                <li className="list-disc ml-10 pl-5"><span className="font-bold">Reviewing your information.</span> You may have the right to inspect the personal information we maintain about you under applicable privacy laws (depending on the jurisdiction, this may be called right of access, right of portability or variations of those terms). You may request a copy or file of your personal information by contacting  <Link className="font-bold border-b-2" to='javascript:void(0)' onClick={() => window.location.href = 'mailto:help@boo.world'}>help@boo.world</Link>.</li>
-                <li className="list-disc ml-10 pl-5"><span className="font-bold"></span>Updating your information. If you feel that the information we have on file for you is wrong or you revoke our right to use your details and you wish to seek rectification, deletion, or object to its processing, you may contact us via <Link className="font-bold border-b-2" to='javascript:void(0)' onClick={() => window.location.href = 'mailto:help@boo.world'}>help@boo.world</Link>.</li>
+                <li className="list-disc ml-10 pl-5"><span className="font-bold">Reviewing your information.</span> You may have the right to inspect the personal information we maintain about you under applicable privacy laws (depending on the jurisdiction, this may be called right of access, right of portability or variations of those terms). You may request a copy or file of your personal information by contacting  <Link className="font-bold border-b-2" to='javascript:void(0)' onClick={() => window.location.href = 'mailto:help@blinddate.world'}>help@blinddate.world</Link>.</li>
+                <li className="list-disc ml-10 pl-5"><span className="font-bold"></span>Updating your information. If you feel that the information we have on file for you is wrong or you revoke our right to use your details and you wish to seek rectification, deletion, or object to its processing, you may contact us via <Link className="font-bold border-b-2" to='javascript:void(0)' onClick={() => window.location.href = 'mailto:help@blinddate.world'}>help@blinddate.world</Link>.</li>
                 <li className="list-disc ml-10 pl-5">For your own protection and the protection of all of our users, we may require you to provide adequate proof of identity before accommodating the above requests.</li>
                 <li className="list-disc ml-10 pl-5">Please remember that we may reject requests for a few reasons, including if the request is unlawful or if it may infringe on trade secrets or intellectual property or endanger the privacy of another user. Suppose you may wish to receive details relating to another user, like a copy of messages or images you received from them through our service. In that case, the other user will need to contact our Privacy Officer to provide their written consent before any information is released.</li>
                 <li className="list-disc ml-10 pl-5">Also, we can't accommodate specific requests to object to the processing of personal details, notably where such requests would not allow us to give our service to you anymore. For instance, we cannot provide our service without your age.</li>
@@ -145,7 +145,7 @@ const TermsAndConditions: React.FC = () => {
             <h6 className="my-3 text-lg font-bold">HOW WE SHARE INFORMATION</h6>
             <p className="mb-2">Blind Date works hard to protect you from unauthorized access or alteration, disclosure or destruction of your personal information. But as with all technology companies, although we take steps to secure your information, we do not promise, and you should not expect, that your personal information will always remain secure.</p>
             <p className="mb-2">We regularly monitor our systems for possible vulnerabilities and attacks and regularly review our information collection, storage, and processing practices to update our physical, technical, and organizational security measures.</p>
-            <p className="mb-2">We may suspend your use of all or part of the services without notice if we suspect or detect any breach of security. If you believe that your account or information is no longer secure, please notify us immediately at <Link className="font-bold border-b-2" to='javascript:void(0)' onClick={() => window.location.href = 'mailto:help@boo.world'}>help@boo.world</Link>.</p>
+            <p className="mb-2">We may suspend your use of all or part of the services without notice if we suspect or detect any breach of security. If you believe that your account or information is no longer secure, please notify us immediately at <Link className="font-bold border-b-2" to='javascript:void(0)' onClick={() => window.location.href = 'mailto:help@blinddate.world'}>help@blinddate.world</Link>.</p>
             
             <h6 className="my-3 text-lg font-bold">HOW LONG WE RETAIN YOUR INFORMATION</h6>
             <p className="mb-2">We may keep your personal information only as long as we need it for legitimate business use (as laid out in Section 5) and as permitted by applicable law. To ensure the safety and security of our users on and off our services, we may implement a safety retention window of three (3) months following account deletion. During this time, Blind Date will retain account information, although the account may not be visible on the services anymore.</p>
@@ -165,7 +165,7 @@ const TermsAndConditions: React.FC = () => {
             <p className="mb-2">This privacy policy may change over time because we're always looking for new and innovative ways to help you build meaningful personal connections. We will notify just before we implement changes to have time to review the changes.</p>
             
             <h6 className="my-3 text-lg font-bold">CONTACT US</h6>
-            <p className="mb-2">If you may have other questions about this Privacy Policy, you may email us at <Link className="font-bold border-b-2" to='javascript:void(0)' onClick={() => window.location.href = 'mailto:help@boo.world'}>help@boo.world</Link> .</p>
+            <p className="mb-2">If you may have other questions about this Privacy Policy, you may email us at <Link className="font-bold border-b-2" to='javascript:void(0)' onClick={() => window.location.href = 'mailto:help@blinddate.world'}>help@blinddate.world</Link> .</p>
             
         </main>
         
@@ -184,7 +184,7 @@ const TermsAndConditions: React.FC = () => {
             </ul>
 
             <Link className="border-b-2" to={'/legal/privacy_policy'}></Link>
-            <Link className="font-bold border-b-2" to='javascript:void(0)' onClick={() => window.location.href = 'mailto:help@boo.world'}>help@boo.world</Link> 
+            <Link className="font-bold border-b-2" to='javascript:void(0)' onClick={() => window.location.href = 'mailto:help@blinddate.world'}>help@blinddate.world</Link> 
         */}
     </div>
   )
