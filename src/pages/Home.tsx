@@ -17,47 +17,18 @@ function Home() {
 
   return (
     <div className="">
-      <div className="min-h-screen flex flex-col" style={{ 
-        backgroundColor: COLORS.lavender,
-        color: COLORS.hotPink 
-      }}>
-        {/* Navigation */}
-        <nav className="p-4" style={{ backgroundColor: COLORS.peachPuff }}>
-          <div className="flex justify-between items-center">
-            <h1 
-              className="text-2xl font-bold"
-              style={{ color: COLORS.hotPink }}
-            >
-              The Compatibility Project
-            </h1>
-            <div className="space-x-4">
-              <a href="#about" style={{ color: COLORS.hotPink }}>About</a>
-              <a href="#questionnaire" style={{ color: COLORS.hotPink }}>Questionnaire</a>
-              <a href="#results" style={{ color: COLORS.hotPink }}>Results</a>
-              <a href="#contact" style={{ color: COLORS.hotPink }}>Contact</a>
-            </div>
-          </div>
-        </nav>
+      <div className="min-h-screen flex flex-col bg-offWhite text-hotPink">
 
         {/* Main Content */}
         <main className="flex-grow">
           {/* Landing Section */}
-          <section 
-            className="min-h-screen flex items-center justify-center text-center"
-            style={{ backgroundColor: COLORS.lavender }}
-          >
+          <section className="min-h-screen flex items-center justify-center text-center bg-offWhite">
             <div>
-              <h1 
-                className="text-5xl font-bold mb-4"
-                style={{ color: COLORS.hotPink }}
-              >
+              <h1 className="text-5xl font-bold mb-4 text-hotPink">
                 The Compatibility Project
               </h1>
               <Link to="/questionnaire">Questionnaire</Link>
-              <p 
-                className="text-xl"
-                style={{ color: COLORS.hotPink }}
-              >
+              <p className="text-xl text-hotPink">
                 Discovering the Science of Love and Connection
               </p>
             </div>
@@ -66,20 +37,15 @@ function Home() {
           {/* About Section */}
           <section 
             id="about"
-            className="min-h-screen flex items-center justify-center py-16"
-            style={{ backgroundColor: COLORS.peachPuff }}
+            className="min-h-screen flex items-center justify-center py-16 text-peachPuff"
           >
             <div className="max-w-2xl text-center">
               <h2 
-                className="text-4xl font-bold mb-6"
-                style={{ color: COLORS.hotPink }}
+                className="text-4xl font-bold mb-6 text-hotPink"
               >
                 Our Mission
               </h2>
-              <p 
-                className="text-lg"
-                style={{ color: COLORS.hotPink }}
-              >
+              <p className="text-lg text-hotPink">
                 Our goal is to understand what makes love work.
 
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam 
@@ -92,23 +58,13 @@ function Home() {
           {/* Questionnaire Link */}
           <section 
             id="questionnaire"
-            className="min-h-screen flex items-center justify-center py-16"
-            style={{ backgroundColor: COLORS.thistle }}
+            className="min-h-screen flex items-center justify-center py-16 bg-thistle"
           >
             <div className="text-center">
-              <h2 
-                className="text-4xl font-bold mb-6"
-                style={{ color: COLORS.hotPink }}
-              >
+              <h2 className="text-4xl font-bold mb-6 text-hotPink">
                 Take Our Compatibility Questionnaire
               </h2>
-              <button 
-                className="px-6 py-3 rounded"
-                style={{ 
-                  backgroundColor: COLORS.hotPink,
-                  color: COLORS.lavender 
-                }}
-              >
+              <button className="px-6 py-3 rounded bg-lavender text-lavender">
                 Start Questionnaire
               </button>
             </div>
@@ -117,13 +73,11 @@ function Home() {
           {/* Results Section */}
           <section 
             id="results"
-            className="min-h-screen flex items-center justify-center py-16"
-            style={{ backgroundColor: COLORS.thistle }}
+            className="min-h-screen flex items-center justify-center py-16 bg-thistle"
           >
             <div className="max-w-4xl text-center">
               <h2 
-                className="text-4xl font-bold mb-6"
-                style={{ color: COLORS.hotPink }}
+                className="text-4xl font-bold mb-6 text-hotPink"
               >
                 Our Findings
               </h2>
@@ -131,11 +85,7 @@ function Home() {
                 {[1,2,3].map((item) => (
                   <div 
                     key={item} 
-                    className="p-6 rounded-lg shadow-md"
-                    style={{ 
-                      backgroundColor: COLORS.lightPink,
-                      color: COLORS.hotPink 
-                    }}
+                    className="p-6 rounded-lg shadow-md bg-lightPink text-hotPink"
                   >
                     <h3 className="text-2xl font-semibold mb-4">Result {item}</h3>
                     <p>
@@ -151,50 +101,30 @@ function Home() {
           {/* Contact Section */}
           <section 
             id="contact"
-            className="min-h-screen flex items-center justify-center py-16"
-            style={{ backgroundColor: COLORS.peachPuff }}
+            className="min-h-screen flex items-center justify-center py-16 text-peachPuff"
           >
             <div className="max-w-md w-full">
-              <h2 
-                className="text-4xl font-bold mb-6 text-center"
-                style={{ color: COLORS.hotPink }}
-              >
+              <h2 className="text-4xl font-bold mb-6 text-center text-hotPink">
                 Contact Us
               </h2>
               <form className="space-y-4">
                 <input 
                   type="text" 
                   placeholder="Name" 
-                  className="w-full p-3 rounded"
-                  style={{ 
-                    backgroundColor: COLORS.lightPink,
-                    color: COLORS.hotPink 
-                  }}
+                  className="w-full p-3 rounded bg-lightPink text-hotPink"
                 />
                 <input 
                   type="email" 
                   placeholder="Email" 
-                  className="w-full p-3 rounded"
-                  style={{ 
-                    backgroundColor: COLORS.lightPink,
-                    color: COLORS.hotPink 
-                  }}
+                  className="w-full p-3 rounded bg-lightPink text-hotPink"
                 />
                 <textarea 
                   placeholder="Your Message" 
-                  className="w-full p-3 rounded h-32"
-                  style={{ 
-                    backgroundColor: COLORS.lightPink,
-                    color: COLORS.hotPink 
-                  }}
+                  className="w-full p-3 rounded h-32 bg-lightPink text-hotPink"
                 ></textarea>
                 <button 
                   type="submit" 
-                  className="w-full p-3 rounded"
-                  style={{ 
-                    backgroundColor: COLORS.hotPink,
-                    color: COLORS.lavender 
-                  }}
+                  className="w-full p-3 rounded bg-hotPink text-lavender"
                 >
                   Send Message
                 </button>
@@ -204,15 +134,9 @@ function Home() {
         </main>
 
         {/* Footer */}
-        <footer 
-          className="p-4 text-center"
-          style={{ 
-            backgroundColor: COLORS.peachPuff,
-            color: COLORS.hotPink 
-          }}
-        >
+        {/* <footer className="p-4 text-center bg-peachPuff text-hotPink">
           © 2024 The Compatibility Project. All rights reserved.
-        </footer>
+        </footer> */}
       </div>
     </div>
   )

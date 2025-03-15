@@ -1,5 +1,15 @@
 @import "tailwindcss";
 
+@theme {
+  --color-lightPink: #FFB6C1;
+  --color-peachPuff: #FFDAB9;
+  --color-lavender: #E6E6FA;
+  --color-thistle: #D8BFD8;
+  --color-hotPink: #FF69B4;
+  --color-offWhite: #F1FFFA;
+}
+
+
 /* #root {
   max-width: 1280px;
   margin: 0 auto;
