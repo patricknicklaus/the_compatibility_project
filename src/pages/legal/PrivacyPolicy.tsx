@@ -20,7 +20,7 @@ const TermsAndConditions: React.FC = () => {
             <p className="mb-2">If you live outside the European Union, the company responsible for your information is:</p>
             <p className="mb-2">Blind Date World, LLC.</p>
             <h6 className="my-3 text-lg font-bold">WHERE THIS PRIVACY POLICY APPLIES</h6>
-            <p className="mb-2">This Privacy Policy applies to all of Boo's websites, applications, events, and services. In this Privacy Policy, we may refer to all of these as "Services" for clarity. We've placed web links to this Privacy Policy and on all related services to make it even clearer.</p>
+            <p className="mb-2">This Privacy Policy applies to all of Blind Date's websites, applications, events, and services. In this Privacy Policy, we may refer to all of these as "Services" for clarity. We've placed web links to this Privacy Policy and on all related services to make it even clearer.</p>
             <p className="mb-2">Some services may have their own privacy policies. If a specific service has its own privacy policy, that latter policy takes precedence over our Privacy Policy.</p>
             <h6 className="my-3 text-lg font-bold">INFORMATION WE COLLECT</h6>
             <p className="mb-2">Without some details about you, like basic profile and the sorts of individuals you'd like to meet, we won't be able to assist you in making significant connections. We may also collect information created by your use of our services, in the form of access logs, as well as details from third parties, like when you use a social media account to access our services. We go into further depth below about the information that we may collect.</p>
@@ -40,7 +40,7 @@ const TermsAndConditions: React.FC = () => {
             <p className="mb-2">In addition to the information you supply us directly, we obtain information about you from third parties, such as:</p>
             <ul className="mb-2">
                 <li className="list-disc ml-10 pl-5"><span className="font-bold">Other People.</span> As other users use our services, they may give details about you. For example, if other users contact us about you, we may gather information about you from them.</li>
-                <li className="list-disc ml-10 pl-5"><span className="font-bold">Other Collaborators.</span> Other partners may get information about you from our partners, such as when Boo advertisements are published on a partner and platforms and websites (in which case they may send along campaign success details).</li>
+                <li className="list-disc ml-10 pl-5"><span className="font-bold">Other Collaborators.</span> Other partners may get information about you from our partners, such as when Blind Date advertisements are published on a partner and platforms and websites (in which case they may send along campaign success details).</li>
             </ul>
             
             <p className="mb-2 font-bold">Information collected when you use our services</p>
@@ -75,9 +75,9 @@ const TermsAndConditions: React.FC = () => {
                 <li className="list-disc ml-10 pl-5">Connect all of your devices so that you may have a consistent experience with our services across all of them. We accomplish this by connecting devices and browser data, such as when you log into your account on various devices, or by utilizing partial or complete IP addresses, browser versions, and other data about your devices to help identify and link them.</li>
             </ul>
 
-            <p className="mb-2 font-bold">To provide new Boo services to you</p>
+            <p className="mb-2 font-bold">To provide new Blind Date services to you</p>
             <ul className="mb-2">
-                <li className="list-disc ml-10 pl-5">Register you and display your profile on new Boo features and apps</li>
+                <li className="list-disc ml-10 pl-5">Register you and display your profile on new Blind Date features and apps</li>
                 <li className="list-disc ml-10 pl-5">Administer your account on these new features and apps</li>
                 <li className="list-disc ml-10 pl-5">To serve you relevant notifications</li>
                 <li className="list-disc ml-10 pl-5">We will communicate with you by email, phone, or mobile device about notifications, items, or other services that we believe you will be interested in.</li>
@@ -116,7 +116,7 @@ const TermsAndConditions: React.FC = () => {
             
             <h6 className="my-3 text-lg font-bold">HOW WE SHARE INFORMATION</h6>
             <p className="mb-2">Because our purpose is to assist you in making meaningful relationships, the majority of information shared by users is, of course, with other users.</p>
-            <p className="mb-2">We also share some users' information with some service providers and partners that help us operate the services, as well as with other Boo related organizations and, in some situations, government authorities.</p>
+            <p className="mb-2">We also share some users' information with some service providers and partners that help us operate the services, as well as with other Blind Date related organizations and, in some situations, government authorities.</p>
             <p className="mb-2">Continue reading to learn more about how your information is shared with others.</p>
             <p className="mb-2"><span className="font-bold">With other users.</span> When you freely provide information on the site, you share it with other users. Ensure that the content you submit is information that you are happy to have publicly visible, we, neither you, can control what the others users do with your information once you share it. </p>
             <p className="mb-2"><span className="font-bold">With our service providers and partners.</span> We may rely on third-party vendors to assist us in our everyday operations and improve user experiences. These third parties help us with different tasks, such as analytics, data hosting and maintenance, payment processing, customer service, marketing, and security operations. We follow a strict vetting protocol before engaging any service provider or working with any partner to make sure our operations are secure and safe, including the security of your information. All of our service providers and partners must sign confidentiality agreements. Your raw data is never used for any other purpose without your explicit consent.</p>
@@ -125,7 +125,7 @@ const TermsAndConditions: React.FC = () => {
             <p className="mb-2"><span className="font-bold">To enforce legal rights.</span> We may also share information: I to reduce our liability in a pending or threatened lawsuit; (ii) to protect our legal rights and the legal rights of other users, business partners, or other interested parties; (iii) to enforce our agreements and contracts with you; and (iv) to investigate, prevent, or take other action regarding illegal activity, suspected fraud, or other suspicion or wrongdoing.</p>
             <p className="mb-2"><span className="font-bold">With your consent or at your request.</span> We may request your permission to share your information with related third parties. In such cases, we will explain why we want to disclose the information. Under any of the aforementioned circumstances, we may use and share non-personal information (information that, by itself, does not identify you, like device information, the general demographics, collective behavioral data, geolocation in a de-identified form), and personal information in hashed, non-human readable form.</p>
             <h6 className="my-3 text-lg font-bold">YOUR RIGHTS</h6>
-            <p className="mb-2">Boo wants you to be in control of your personal information, so we have provided you with the following tools:</p>
+            <p className="mb-2">Blind Date wants you to be in control of your personal information, so we have provided you with the following tools:</p>
             <ul className="mb-2">
                 <li className="list-disc ml-10 pl-5"><span className="font-bold">Access / Update tools in the service.</span> Tools and account settings that enable you to view, correct, or remove information supplied to us and linked with your account directly inside the service. If you have any queries about those tools or settings, please get in touch with our customer service staff at <Link className="font-bold border-b-2" to='javascript:void(0)' onClick={() => window.location.href = 'mailto:help@boo.world'}>help@boo.world</Link> for assistance.</li>
                 <li className="list-disc ml-10 pl-5"><span className="font-bold">Device permissions.</span> Your mobile device has permission settings that enable for location sharing and alerts, like phone book and location services, as well as push notifications. You can alter your device's settings to agree or disagree with collecting the associated information or displaying the corresponding alerts. </li>
@@ -143,12 +143,12 @@ const TermsAndConditions: React.FC = () => {
                 <li className="list-disc ml-10 pl-5"><span className="font-bold">Accountability.</span> In some countries, including in the European Union, you have a right to file a complaint with relevant data protection authority if in case you have certain concerns about how we process your personal information. The data protection authority you can complain with notably may be that of your current residence, where you work or where we are currently established.</li>
             </ul>
             <h6 className="my-3 text-lg font-bold">HOW WE SHARE INFORMATION</h6>
-            <p className="mb-2">Boo works hard to protect you from unauthorized access or alteration, disclosure or destruction of your personal information. But as with all technology companies, although we take steps to secure your information, we do not promise, and you should not expect, that your personal information will always remain secure.</p>
+            <p className="mb-2">Blind Date works hard to protect you from unauthorized access or alteration, disclosure or destruction of your personal information. But as with all technology companies, although we take steps to secure your information, we do not promise, and you should not expect, that your personal information will always remain secure.</p>
             <p className="mb-2">We regularly monitor our systems for possible vulnerabilities and attacks and regularly review our information collection, storage, and processing practices to update our physical, technical, and organizational security measures.</p>
             <p className="mb-2">We may suspend your use of all or part of the services without notice if we suspect or detect any breach of security. If you believe that your account or information is no longer secure, please notify us immediately at <Link className="font-bold border-b-2" to='javascript:void(0)' onClick={() => window.location.href = 'mailto:help@boo.world'}>help@boo.world</Link>.</p>
             
             <h6 className="my-3 text-lg font-bold">HOW LONG WE RETAIN YOUR INFORMATION</h6>
-            <p className="mb-2">We may keep your personal information only as long as we need it for legitimate business use (as laid out in Section 5) and as permitted by applicable law. To ensure the safety and security of our users on and off our services, we may implement a safety retention window of three (3) months following account deletion. During this time, Boo will retain account information, although the account may not be visible on the services anymore.</p>
+            <p className="mb-2">We may keep your personal information only as long as we need it for legitimate business use (as laid out in Section 5) and as permitted by applicable law. To ensure the safety and security of our users on and off our services, we may implement a safety retention window of three (3) months following account deletion. During this time, Blind Date will retain account information, although the account may not be visible on the services anymore.</p>
             <p className="mb-2">In practice, we may delete or keep your information anonymously upon deletion of your account (thus abiding by the safety retention window) or specifically, after two years of continuous inactivity, unless:</p>
             
             <ul className="mb-2">
@@ -157,7 +157,7 @@ const TermsAndConditions: React.FC = () => {
                 <li className="list-disc ml-10 pl-5">The presence of an unresolved issue, claim or dispute needing resolution and thus requiring us to keep the relevant information to aid the process and;</li>
                 <li className="list-disc ml-10 pl-5">The details must be kept for our legitimate business interests, like fraud prevention and improving users' safety and security. For example, personal information may need to be kept to prevent a user who was banned for violating behavior or security issues from opening a new account.</li>
             </ul>
-            <p className="mb-2">Keep in mind that even though our process is designed to carry out data deletion protocols according to the above guidelines, we cannot guarantee that Boo will delete all data within a specific time frame due to technical restrictions.</p>
+            <p className="mb-2">Keep in mind that even though our process is designed to carry out data deletion protocols according to the above guidelines, we cannot guarantee that Blind Date will delete all data within a specific time frame due to technical restrictions.</p>
             <h6 className="my-3 text-lg font-bold">CHILDREN'S PRIVACY</h6>
             <p className="mb-2">Our services are restricted to 18 years of age or older. We don't allow users under 18 on our platform, and we do not knowingly collect personal details from anyone under 18. If you are suspecting that a user is under the age allowed, please make use of the reporting feature available through our service.</p>
             
