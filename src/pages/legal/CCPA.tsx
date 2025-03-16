@@ -7,7 +7,7 @@ const CCPA: React.FC = () => {
         <main className="flex-grow mt-20 py-10 px-20">
             <h1 className="text-2xl mb-2 font-bold">CCPA Privacy Notice Addendum</h1>
             <p className="mb-2 text-bold">For California Consumers</p>
-            <p className="mb-2">This California section supplements the <Link className="border-b-2" to={'/legal/privacy_policy'}>Privacy Policy</Link>Privacy Policy and applies solely to California consumers (excluding our personnel). The information below describes how we process California consumers' personal information (excluding our personnel), based on definitions laid out in the California Consumer Privacy Act ("CCPA").</p>
+            <p className="mb-2">This California section supplements the <Link className="border-b-2 text-blue-600" to={'/legal/privacy_policy'}>Privacy Policy</Link> and applies solely to California consumers (excluding our personnel). The information below describes how we process California consumers' personal information (excluding our personnel), based on definitions laid out in the California Consumer Privacy Act ("CCPA").</p>
             <p className="mb-2"><span className="font-bold">Not all of the items listed in the below are relevant to you. </span>For example, we do not collect Social Security numbers from our users, but we may collect this data in the course of evaluating a job applicant.</p>
             
             <h6 className="mb-2 text-lg font-bold">Categories of personal information collected over the 12-month period prior to the effective date of our Privacy Policy</h6>
@@ -159,7 +159,7 @@ const CCPA: React.FC = () => {
             
             <p className="mb-2">You have the right to request that we delete the personal information we have collected from you. If you choose to exercise any of your rights under the CCPA, you have the right to not receive discriminatory treatment.</p>
             <p className="mb-2 font-bold">How to Submit a Request</p>
-            <p className="mb-2">To submit an access or deletion request, contact us as at <Link className="font-bold border-b-2" to='javascript:void(0)' onClick={() => window.location.href = 'mailto:help@blinddate.world'}>help@blinddate.world</Link> . To help protect your privacy and maintain security, we take steps to verify your identity before granting you access to your personal information or complying with your request. To the extent permitted by applicable law, we may charge a reasonable fee to comply with your request.</p>
+            <p className="mb-2">To submit an access or deletion request, contact us as at <Link className="font-bold border-b-2 text-blue-600" to='javascript:void(0)' onClick={() => window.location.href = 'mailto:help@blinddate.world'}>help@blinddate.world</Link>. To help protect your privacy and maintain security, we take steps to verify your identity before granting you access to your personal information or complying with your request. To the extent permitted by applicable law, we may charge a reasonable fee to comply with your request.</p>
         </main>
         
             {/* <h6 className="mb-2 text-lg font-bold"></h6>
