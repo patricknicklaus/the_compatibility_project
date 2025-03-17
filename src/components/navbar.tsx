@@ -22,32 +22,35 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className={`w-full fixed top-0 z-50 transition-all duration-300 ${scrolled ? 'bg-pink-300 shadow-lg' : 'bg-transparent'}`}>
+    <nav className={`w-full fixed top-0 z-40 transition-all duration-300 ${scrolled ? 'bg-[rgba(255,255,2555,0.54)]' : 'bg-transparent'}`}>
       <div className="mx-auto px-4">
-        <div className="flex justify-between items-center py-4">
+        <div className="flex justify-between items-center py-1">
           {/* Logo */}
           <div className="flex items-center">
             <a href="/" className="flex items-center">
               <img 
                 src={playstore_processed} 
                 alt="Company Logo" 
-                className={`w-auto rounded-xl transition duration-300 ${scrolled ? 'h-10 bg-white shadow-lg ' : 'h-16 bg-transparent'}`}
+                className={`w-auto rounded-xl h-16 bg-transparent transition duration-300`}
+                // className={`w-auto rounded-xl h-16 bg-transparent transition duration-300  ${scrolled ? 'h-10 bg-white shadow-lg ' : 'h-16 bg-transparent'}`}
               />
             </a>
           </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
-            <a href="#about" className={`${scrolled ? 'text-white' : 'text-pink-500'} hover:text-purple-400 transition-colors duration-300 font-medium text-xl`}>
-              About
+            {/* <a href="/#about" className={`${scrolled ? 'text-white' : 'text-pink-500'} hover:text-purple-400 transition-colors duration-300 font-medium text-xl`}> */}
+
+            <a href="/#about" className={`text-pink-500 hover:text-purple-400 transition-colors duration-300 font-medium text-xl`}>
+              Mission
             </a>
-            <a href="/what" className={`${scrolled ? 'text-white' : 'text-pink-500'} hover:text-purple-400 transition-colors duration-300 font-medium text-xl`}>
-              What
+            <a href="/what" className={`text-pink-500 hover:text-purple-400 transition-colors duration-300 font-medium text-xl`}>
+              What if
             </a>
-            <a href="/why" className={`${scrolled ? 'text-white' : 'text-pink-500'} hover:text-purple-400 transition-colors duration-300 font-medium text-xl`}>
+            <a href="/why" className={`text-pink-500 hover:text-purple-400 transition-colors duration-300 font-medium text-xl`}>
               Why
             </a>
-            <a href="/contact" className={`${scrolled ? 'text-white' : 'text-pink-500'} hover:text-purple-400 transition-colors duration-300 font-medium text-xl`}>
+            <a href="/#contact" className={`text-pink-500 hover:text-purple-400 transition-colors duration-300 font-medium text-xl`}>
               Contact
             </a>
           </div>
