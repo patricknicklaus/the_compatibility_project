@@ -24,14 +24,14 @@ const Navbar = () => {
   return (
     <nav className={`w-full fixed top-0 z-40 transition-all duration-300 ${scrolled ? 'bg-[rgba(255,255,2555,0.54)]' : 'bg-transparent'}`}>
       <div className="mx-auto px-4">
-        <div className="flex justify-between items-center py-1">
+        <div className="flex justify-between items-center md:py-1">
           {/* Logo */}
           <div className="flex items-center">
             <a href="/" className="flex items-center">
               <img 
                 src={playstore_processed} 
                 alt="Company Logo" 
-                className={`w-auto rounded-xl h-16 bg-transparent transition duration-300`}
+                className={`w-auto rounded-xl h-8 md:h-16 bg-transparent transition duration-300`}
                 // className={`w-auto rounded-xl h-16 bg-transparent transition duration-300  ${scrolled ? 'h-10 bg-white shadow-lg ' : 'h-16 bg-transparent'}`}
               />
             </a>
@@ -44,11 +44,11 @@ const Navbar = () => {
             <a href="/#about" className={`text-pink-500 hover:text-purple-400 transition-colors duration-300 font-medium text-xl`}>
               Mission
             </a>
-            <a href="/what" className={`text-pink-500 hover:text-purple-400 transition-colors duration-300 font-medium text-xl`}>
+            <a href="/#whatif" className={`text-pink-500 hover:text-purple-400 transition-colors duration-300 font-medium text-xl`}>
               What if
             </a>
-            <a href="/why" className={`text-pink-500 hover:text-purple-400 transition-colors duration-300 font-medium text-xl`}>
-              Why
+            <a href="/#process" className={`text-pink-500 hover:text-purple-400 transition-colors duration-300 font-medium text-xl`}>
+              Our Process
             </a>
             <a href="/#contact" className={`text-pink-500 hover:text-purple-400 transition-colors duration-300 font-medium text-xl`}>
               Contact
@@ -62,7 +62,7 @@ const Navbar = () => {
               className="outline-none mobile-menu-button"
             >
               <svg 
-                className="w-6 h-6 text-white" 
+                className="w-6 h-6 text-hotPink" 
                 fill="none" 
                 strokeLinecap="round" 
                 strokeLinejoin="round" 
@@ -82,18 +82,18 @@ const Navbar = () => {
       </div>
 
       {/* Mobile menu */}
-      <div className={`md:hidden ${mobileMenuOpen ? 'block' : 'hidden'} bg-gray-800 transition-all duration-300`}>
+      <div className={`md:hidden ${mobileMenuOpen ? 'block' : 'hidden'} bg-hotPink transition-all duration-300`}>
         <div className="flex flex-col space-y-4 px-4 py-4 items-center">
-          <a href="/about" className="text-white hover:text-purple-400 transition-colors duration-300 font-medium">
+          <a href="/#about" className="text-white hover:text-purple-400 transition-colors duration-300 font-medium">
             About
           </a>
-          <a href="/what" className="text-white hover:text-purple-400 transition-colors duration-300 font-medium">
+          <a href="/#whatif" className="text-white hover:text-purple-400 transition-colors duration-300 font-medium">
             What
           </a>
-          <a href="/why" className="text-white hover:text-purple-400 transition-colors duration-300 font-medium">
-            Why
+          <a href="/#process" className="text-white hover:text-purple-400 transition-colors duration-300 font-medium">
+            Our Process
           </a>
-          <a href="/contact" className="px-2 py-2 bg-purple-500 text-white rounded-md hover:bg-purple-600 transition-colors duration-300 font-medium text-center">
+          <a href="/#contact" className="text-white hover:bg-purple-600 transition-colors duration-300 font-medium">
             Contact
           </a>
         </div>

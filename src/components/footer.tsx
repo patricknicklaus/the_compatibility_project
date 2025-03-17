@@ -7,8 +7,8 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row">
           {/* Left side with logo and tagline */}
           <div className="md:w-1/3 mb-8 md:mb-0">
-            <h2 className="text-7xl font-bold mb-1">Blind Date</h2>
-            <p className="text-gray-400 text-lg">Built with love in Denver, Colorado</p>
+            <h2 className="text-5xl md:text-7xl font-bold mb-1">Blind Date</h2>
+            <p className="text-gray-400 md:text-lg">Built with love in Denver, Colorado</p>
           </div>
           
           {/* Right side with links - offset to the right */}
@@ -17,10 +17,10 @@ const Footer = () => {
             <div className="col-span-1">
               <h3 className="font-semibold text-2xl mb-3 border-b-2 mr-20">Navigation</h3>
               <ul className="space-y-2">
-                <li><a href="#" className="hover:text-pink-400 transition duration-300">What</a></li>
-                <li><a href="#" className="hover:text-pink-400 transition duration-300">Why</a></li>
-                <li><a href="#about" className="hover:text-pink-400 transition duration-300">About</a></li>
-                <li><a href="#contact" className="hover:text-pink-400 transition duration-300">Contact</a></li>
+                <li><a href="/#about" className="hover:text-pink-400 transition duration-300">Mission</a></li>
+                <li><a href="/#whatif" className="hover:text-pink-400 transition duration-300">What</a></li>
+                <li><a href="/#process" className="hover:text-pink-400 transition duration-300">Our Process</a></li>
+                <li><a href="/#contact" className="hover:text-pink-400 transition duration-300">Contact</a></li>
               </ul>
             </div>
             
