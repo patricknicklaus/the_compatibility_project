@@ -2,9 +2,13 @@ import React from 'react'
 
 const Support: React.FC = () => {
   return (
-    <div className="page Support-page">
-      <h1>Support Page</h1>
-      <p>Learn more Support our company and our mission.</p>
+    <div className="min-h-screen flex flex-col bg-offWhite text-black">
+      <main id="support_page" className="min-h-screen flex items-center justify-center py-16">
+        <div className="max-w-5xl text-center">
+          <h2 className="text-5xl md:text-9xl font-bold text-hotPink">Support</h2>
+          <h4 className="text-sm md:text-3xl text-hotPink mt-2 mb-10">Coming Soon!</h4>
+        </div>
+      </main>
     </div>
   )
 }
