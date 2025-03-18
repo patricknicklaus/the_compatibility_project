@@ -23,7 +23,7 @@ const Navbar = () => {
 
   return (
     <nav className={`w-full fixed top-0 z-40 transition-all duration-300 ${scrolled ? 'bg-[rgba(255,255,2555,0.54)]' : 'bg-transparent'}`}>
-      <div className="mx-auto px-4">
+      <div className="mx-auto px-1 md:px-4">
         <div className="flex justify-between items-center md:py-1">
           {/* Logo */}
           <div className="flex items-center">
@@ -41,16 +41,16 @@ const Navbar = () => {
           <div className="hidden md:flex space-x-8">
             {/* <a href="/#about" className={`${scrolled ? 'text-white' : 'text-pink-500'} hover:text-purple-400 transition-colors duration-300 font-medium text-xl`}> */}
 
-            <a href="/#about" className={`text-pink-500 hover:text-purple-400 transition-colors duration-300 font-medium text-xl`}>
+            <a href="/#about" className={`text-pink-500 hover:text-logoBlue transition-colors duration-300 font-medium text-xl`}>
               Mission
             </a>
-            <a href="/#whatif" className={`text-pink-500 hover:text-purple-400 transition-colors duration-300 font-medium text-xl`}>
+            <a href="/#whatif" className={`text-pink-500 hover:text-logoBlue transition-colors duration-300 font-medium text-xl`}>
               What if
             </a>
-            <a href="/#process" className={`text-pink-500 hover:text-purple-400 transition-colors duration-300 font-medium text-xl`}>
+            <a href="/#process" className={`text-pink-500 hover:text-logoBlue transition-colors duration-300 font-medium text-xl`}>
               Our Process
             </a>
-            <a href="/#comingsoon" className={`text-pink-500 hover:text-purple-400 transition-colors duration-300 font-medium text-xl`}>
+            <a href="/#comingsoon" className={`text-pink-500 hover:text-logoBlue transition-colors duration-300 font-medium text-xl`}>
               Coming Soon
             </a>
           </div>
@@ -84,16 +84,16 @@ const Navbar = () => {
       {/* Mobile menu */}
       <div className={`md:hidden ${mobileMenuOpen ? 'block' : 'hidden'} bg-hotPink transition-all duration-300`}>
         <div className="flex flex-col space-y-4 px-4 py-4 items-center">
-          <a href="/#about" className="text-white hover:text-purple-400 transition-colors duration-300 font-medium">
+          <a href="/#about" className="text-white hover:text-logoBlue transition-colors duration-300 font-medium">
             About
           </a>
-          <a href="/#whatif" className="text-white hover:text-purple-400 transition-colors duration-300 font-medium">
+          <a href="/#whatif" className="text-white hover:text-logoBlue transition-colors duration-300 font-medium">
             What
           </a>
-          <a href="/#process" className="text-white hover:text-purple-400 transition-colors duration-300 font-medium">
+          <a href="/#process" className="text-white hover:text-logoBlue transition-colors duration-300 font-medium">
             Our Process
           </a>
-          <a href="/#comingsoon" className="text-white hover:bg-purple-600 transition-colors duration-300 font-medium">
+          <a href="/#comingsoon" className="text-white hover:text-logoBlue transition-colors duration-300 font-medium">
             Coming Soon
           </a>
         </div>
