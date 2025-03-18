@@ -17,10 +17,10 @@ const Footer = () => {
             <div className="col-span-1">
               <h3 className="font-semibold text-2xl mb-3 border-b-2 mr-20">Navigation</h3>
               <ul className="space-y-2">
-                <li><a href="/#about" className="hover:text-pink-400 transition duration-300">Mission</a></li>
-                <li><a href="/#whatif" className="hover:text-pink-400 transition duration-300">What If</a></li>
-                <li><a href="/#process" className="hover:text-pink-400 transition duration-300">Our Process</a></li>
-                <li><a href="/#comingsoon" className="hover:text-pink-400 transition duration-300">Coming Soon</a></li>
+                <li><a href="/#mission" className="hover:text-pink-400 transition duration-300">Mission</a></li>
+                <li><a href="/#results" className="hover:text-pink-400 transition duration-300">Results</a></li>
+                <li><a href="/#contact" className="hover:text-pink-400 transition duration-300">Contact</a></li>
+                <li><a href="/questionnaire" className="hover:text-pink-400 transition duration-300">Questionnaire</a></li>
               </ul>
             </div>
             
@@ -85,7 +85,7 @@ const Footer = () => {
         
         {/* Copyright at the very bottom */}
         <div className=" text-slate-500 text-xs pt-4 border-t border-slate-800">
-          <p>&copy; Blind Date World, LLC</p>
+          <p>&copy; The Compatibility Project 2025</p>
         </div>
       </div>
     </footer>

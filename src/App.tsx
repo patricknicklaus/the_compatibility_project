@@ -2,8 +2,7 @@
 import { Routes, Route, Link } from 'react-router-dom'
 import './App.css'
 import Home from './pages/Home'
-import About from './pages/About'
-import Contact from './pages/Contact'
+import Questionnaire from './pages/Questionnaire'
 import Navbar from './components/navbar'
 import Footer from './components/footer'
 import CCPA from './pages/legal/CCPA'
@@ -40,8 +39,7 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/comingsoon" element={<Contact />} />
+          <Route path="/questionnaire" element={<Questionnaire />} />
           <Route path="/legal/ccpa" element={<CCPA />} />
           <Route path="/legal/colorado_safety_policy" element={<ColoradoSafetyPolicy />} />
           <Route path="/legal/community_guidelines" element={<CommunityGuidelines />} />

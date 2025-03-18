@@ -41,17 +41,17 @@ const Navbar = () => {
           <div className="hidden md:flex space-x-8">
             {/* <a href="/#about" className={`${scrolled ? 'text-white' : 'text-pink-500'} hover:text-purple-400 transition-colors duration-300 font-medium text-xl`}> */}
 
-            <a href="/#about" className={`text-pink-500 hover:text-logoBlue transition-colors duration-300 font-medium text-xl`}>
+            <a href="/#mission" className={`text-pink-500 hover:text-logoBlue transition-colors duration-300 font-medium text-xl`}>
               Mission
             </a>
-            <a href="/#whatif" className={`text-pink-500 hover:text-logoBlue transition-colors duration-300 font-medium text-xl`}>
-              What if
+            <a href="/#results" className={`text-pink-500 hover:text-logoBlue transition-colors duration-300 font-medium text-xl`}>
+              Results
             </a>
-            <a href="/#process" className={`text-pink-500 hover:text-logoBlue transition-colors duration-300 font-medium text-xl`}>
-              Our Process
+            <a href="/#contact" className={`text-pink-500 hover:text-logoBlue transition-colors duration-300 font-medium text-xl`}>
+              Contact
             </a>
-            <a href="/#comingsoon" className={`text-pink-500 hover:text-logoBlue transition-colors duration-300 font-medium text-xl`}>
-              Coming Soon
+            <a href="/questionnaire" className={`text-pink-500 hover:text-logoBlue transition-colors duration-300 font-medium text-xl`}>
+              Questionnaire
             </a>
           </div>
 
@@ -84,17 +84,17 @@ const Navbar = () => {
       {/* Mobile menu */}
       <div className={`md:hidden ${mobileMenuOpen ? 'block' : 'hidden'} bg-hotPink transition-all duration-300`}>
         <div className="flex flex-col space-y-4 px-4 py-4 items-center">
-          <a href="/#about" className="text-white hover:text-logoBlue hover:font-bold transition-colors duration-300 font-medium">
-            About
+          <a href="/#mission" className="text-white hover:text-logoBlue hover:font-bold transition-colors duration-300 font-medium">
+            Mission
           </a>
-          <a href="/#whatif" className="text-white hover:text-logoBlue hover:font-bold transition-colors duration-300 font-medium">
-            What
+          <a href="/#results" className="text-white hover:text-logoBlue hover:font-bold transition-colors duration-300 font-medium">
+            Results
           </a>
-          <a href="/#process" className="text-white hover:text-logoBlue hover:font-bold transition-colors duration-300 font-medium">
-            Our Process
+          <a href="/#contact" className="text-white hover:text-logoBlue hover:font-bold transition-colors duration-300 font-medium">
+            Contact
           </a>
-          <a href="/#comingsoon" className="text-white hover:text-logoBlue hover:font-bold transition-colors duration-300 font-medium">
-            Coming Soon
+          <a href="/questionnaire" className="text-white hover:text-logoBlue hover:font-bold transition-colors duration-300 font-medium">
+            Questionnaire
           </a>
         </div>
       </div>
