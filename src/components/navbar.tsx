@@ -50,8 +50,8 @@ const Navbar = () => {
             <a href="/#process" className={`text-pink-500 hover:text-purple-400 transition-colors duration-300 font-medium text-xl`}>
               Our Process
             </a>
-            <a href="/#contact" className={`text-pink-500 hover:text-purple-400 transition-colors duration-300 font-medium text-xl`}>
-              Contact
+            <a href="/#comingsoon" className={`text-pink-500 hover:text-purple-400 transition-colors duration-300 font-medium text-xl`}>
+              Coming Soon
             </a>
           </div>
 
@@ -93,8 +93,8 @@ const Navbar = () => {
           <a href="/#process" className="text-white hover:text-purple-400 transition-colors duration-300 font-medium">
             Our Process
           </a>
-          <a href="/#contact" className="text-white hover:bg-purple-600 transition-colors duration-300 font-medium">
-            Contact
+          <a href="/#comingsoon" className="text-white hover:bg-purple-600 transition-colors duration-300 font-medium">
+            Coming Soon
           </a>
         </div>
       </div>
