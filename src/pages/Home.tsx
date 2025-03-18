@@ -218,7 +218,7 @@ function Home() {
             className="min-h-screen flex items-center justify-center py-16  bg-peachPuff text-slate-500"
           >
             <div className="max-w-xl w-full p-5">
-              <h2 className="text-8xl font-bold mb-6 text-center">
+              <h2 className="text-3xl md:text-8xl font-bold mb-6 text-center">
                 Stay Tuned!
               </h2>
               <p className="">We plan on adding so much more here like, resources, screen recordings from the app, research we based elements of our product design on and more! If you have any questions, don't hesitate to reach out at <Link className="font-bold border-b-2 text-blue-600" to='javascript:void(0)' onClick={() => window.location.href = 'mailto:help@blinddate.world'}>help@blinddate.world</Link> and we'll get back to as soon as we can!!</p>
