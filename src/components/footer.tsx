@@ -6,8 +6,8 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row">
           {/* Left side with logo and tagline */}
-          <div className="md:w-1/3 mb-8 md:mb-0">
-            <h2 className="text-5xl md:text-7xl font-bold mb-1">Blind Date</h2>
+          <div className="md:w-1/2 mb-8 md:mb-0">
+            <h2 className="text-3xl md:text-5xl font-bold mb-1">The Compatibility Project</h2>
             <p className="text-hotPink md:text-lg ml-1">Built with love in Denver, Colorado</p>
           </div>
           
