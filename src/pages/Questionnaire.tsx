@@ -1,13 +1,24 @@
 import React from 'react'
+import { FormProvider } from '../context/FormContext';
+import FormContainer from '../components/FormContainer';
 
 const Questionnaire: React.FC = () => {
   return (
     <div className="min-h-screen flex flex-col bg-offWhite text-black">
-      <main id="careers_page" className="min-h-screen flex items-center justify-center py-16">
-        <div className="max-w-5xl text-center">
-          <h2 className="text-5xl md:text-9xl font-bold text-hotPink">Questionnaire</h2>
-          <h4 className="text-sm md:text-3xl text-hotPink mb-10">Coming Soon!</h4>
-        </div>
+      <main id="questionnaire_page" className="min-h-screen flex items-center justify-center py-16">
+        <FormProvider>
+          <div>
+            <header className="bg-indigo-700 text-white py-6">
+              <div className="px-4">
+                <h1 className="text-3xl font-bold">Relationship Information</h1>
+                <p className="mt-2">Please fill out the following information about your relationship.</p>
+              </div>
+            </header>
+            <main className="">
+              <FormContainer />
+            </main>
+          </div>
+        </FormProvider>
       </main>
     </div>
   )

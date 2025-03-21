@@ -40,7 +40,7 @@ function Home() {
               <div className="text-left px-10">
             
                     <p className="text-hotPink text-lg mb-3">
-                        What causes people to fall in love? What keeps couples in love year after year, decade after decade? What causes love to waver? What strenghtens it? What traits must be present for love to be probable? These are just a few of the thosands of questions we hope to answer through our work at The Compatibility Project. 
+                        What causes people to fall in love? What keeps couples in love year after year, decade after decade? What causes love to waver? What strenghtens it? What traits must be present for love to be probable? These are just a few of the thousands of questions we hope to answer through our work at The Compatibility Project. 
                     </p>
                     <p className="text-hotPink text-lg mb-3">
                         Everyone, everywhere is invited to help us by completing our Connection Questionnaire for as many mates as you'd like! You can complete a questionnaire for both the ones that worked out and the ones that didn't. We believe every single submission gets us closer to our goal. . 

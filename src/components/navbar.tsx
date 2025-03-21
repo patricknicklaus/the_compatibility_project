@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import playstore_processed from '../assets/playstore_processed.png'
+import cp_logo from '../assets/images/cp_logo_two.png'
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -29,7 +30,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <a href="/" className="flex items-center">
               <img 
-                src={playstore_processed} 
+                src={cp_logo} 
                 alt="Company Logo" 
                 className={`w-auto rounded-xl h-8 md:h-16 bg-transparent transition duration-300`}
                 // className={`w-auto rounded-xl h-16 bg-transparent transition duration-300  ${scrolled ? 'h-10 bg-white shadow-lg ' : 'h-16 bg-transparent'}`}
